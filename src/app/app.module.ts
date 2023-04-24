@@ -3,9 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { HomeComponent } from './component/home/home.component';
+import { LoginComponent } from './component/login/login.component';
+import { SignupComponent } from './component/signup/signup.component';
+
+//Sidenav won't work unless you import BrowserAnimationsModule. So import it from '@angular/platform-browser/animations'.
 
 
 const routes: Routes = []
@@ -13,13 +18,17 @@ const routes: Routes = []
   declarations: [
     AppComponent,
     HomeComponent,
+    LoginComponent,
+    SignupComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+
   ],
   providers: [],
   bootstrap: [AppComponent]
