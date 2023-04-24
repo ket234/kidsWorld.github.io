@@ -1,0 +1,19 @@
+
+
+#intro {
+  background-image: url(	https://png.pngtree.com/thumb_back/fh260/back_pic/03/92/23/8657e25d78c722d.jpg
+  );
+  height: 100vh;
+  background-size: cover;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+    margin-top: -58.59px;
+  }
+}
+
+.rounded{
+  border-radius: 15px;
+}

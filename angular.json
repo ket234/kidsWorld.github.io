@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "kiddos-app"
+  "defaultProject": "kiddos-app",
+  "cli": {
+    "analytics": false
+  }
 }
