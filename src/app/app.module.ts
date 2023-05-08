@@ -9,6 +9,9 @@ import { MatSliderModule } from '@angular/material/slider';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
 import { SignupComponent } from './component/signup/signup.component';
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 //Sidenav won't work unless you import BrowserAnimationsModule. So import it from '@angular/platform-browser/animations'.
 
@@ -24,10 +27,14 @@ const routes: Routes = []
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
+    ReactiveFormsModule,
+    FormsModule,
     RouterModule.forRoot(routes),
+  
 
   ],
   providers: [],
