@@ -58,6 +58,13 @@
       "mobile": 54654458548,
       "password": "hdjhj",
       "id": 11
+    },
+    {
+      "fullName": "john del",
+      "email": "john@gmail.com",
+      "mobile": 812456378,
+      "password": "john123",
+      "id": 12
     }
   ]
 }
