@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "signupUsers": [
+    {
+      "fullName": "ket",
+      "email": "kc@gmail.com",
+      "mobile": 9527229201,
+      "password": "abc",
+      "id": 1
+    },
+    {
+      "fullName": "k",
+      "email": "l",
+      "mobile": 9,
+      "password": "123",
+      "id": 2
+    },
+    {
+      "fullName": "akshay",
+      "email": "abc@gmail.com",
+      "mobile": 9527229201,
+      "password": "qwe",
+      "id": 4
+    },
+    {
+      "fullName": "Alexa",
+      "email": "alexa@yahoo.com",
+      "mobile": 7878787878,
+      "password": "alexa",
+      "id": 5
+    },
+    {
+      "fullName": "ehfh",
+      "email": "hcjsdj",
+      "mobile": 823767467,
+      "password": "hfjhegf",
+      "id": 10
+    },
+    {
+      "fullName": "ffj",
+      "email": "njfj",
+      "mobile": 54654458548,
+      "password": "hdjhj",
+      "id": 11
+    },
+    {
+      "fullName": "john del",
+      "email": "john@gmail.com",
+      "mobile": 812456378,
+      "password": "john123",
+      "id": 12
+    }
+  ]
+}
