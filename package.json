@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postbuild": "sed -i 's|<base href=.*>|<base href=\"/kidsWorld.github.io/\">|' docs/index.html"
+
      
   },
   "private": true,
