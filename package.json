@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "ghbuild": "ng build --base-href \"https://ket234.github.io/kidsWorld.github.io/\"",
-    "deploy": "npm run ghbuild && npx angular-cli-ghpages --dir=dist/kiddos-app"
+    "deploy": "npm run ghbuild && npx angular-cli-ghpages --dir=docs"
   },
   "private": true,
   "dependencies": {
