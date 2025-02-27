@@ -19,7 +19,7 @@
           "options": {
             "outputPath": "docs",
             "baseHref": "/kidsWorld.github.io/",
-            "deployUrl": "/kidsWorld.github.io/",
+            
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
