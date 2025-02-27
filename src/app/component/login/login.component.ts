@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ReactiveFormsModule, FormBuilder ,FormGroup, Validators, FormControl } from '@angular/forms';
-import { Http } from '@angular/http';
+//import { HttpClient } from '@angular/common/http';
 import {HttpClient} from '@angular/common/http';
 import { Router } from '@angular/router';
 import { error } from 'console';
