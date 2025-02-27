@@ -1,0 +1,503 @@
+.logo-img {
+  width: 200px;
+  height: 50px;
+  /* padding: 10px; */
+  margin-left: 0;
+  float: left;
+
+
+}
+
+.navbar .nav-item .nav-link {
+  color: black;
+  font-weight: 700;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+
+/* .fixed-top {
+  position: absolute;
+  right: 0;
+  left: 0;
+} */
+
+.top-header {
+  background-color: rgb(228, 121, 121);
+}
+
+nav .collapse ul {
+  margin-left: 500px;
+
+}
+
+.navbar-toggler-icon {
+  border-color: darkred;
+}
+
+/*  css to switch between humberger icon and close icon   */
+/* .navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+} */
+
+
+
+/* don't add space in .navbar-toggler.collapsed otherwise navbar-toggler-icon and close icon will
+ be displayed as one below other*/
+
+
+/* .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: block;
+
+} */
+.navbar-toggler .close-icon {
+  display: inline-block;
+}
+
+.navbar-toggler.collapsed .close-icon,
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  display: none;
+}
+
+
+
+
+
+
+/* .navbar .collapse {
+    display: block !important;
+    text-align: left;
+} */
+
+/* --------------------------- home -main section------------------------------ */
+/*  */
+#main {
+  position: relative;
+  padding-top: 20vh;
+  /* overflow: hidden; */
+}
+
+.home-image {
+  width: 100%;
+  background-size: cover;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  /* position: relative; */
+  display: inline-block;
+  /* overflow: hidden; */
+  /* position: fixed; */
+  z-index: -1;
+  /* margin-right: 550px; */
+}
+
+
+.main-content {
+  /* position: absolute;
+    font-family: 'Roboto',
+        sans-serif;
+    top: 350px;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    color: rgb(238, 14, 81);
+    font-size: 100px; */
+  position: absolute;
+  width: 100vw;
+  top: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.main-content h1 {
+  font-size: 9vw;
+  color: crimson;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.main-content h2 {
+  font-size: 4vw;
+  color: rgb(51, 5, 5);
+
+}
+
+
+
+/* #btn-shopnow {
+   margin-top: 20px; 
+} */
+
+
+/* .main-content h2 {
+    position: absolute;
+    font-family: 'Roboto',
+        sans-serif;
+    top: 500px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    color: rgb(46, 10, 21);
+    letter-spacing: 4px;
+    word-spacing: 10px;
+} */
+
+@media (max-width: 600px) {
+  .home-image {
+    width: 100%;
+    /* z-index: -1; */
+  }
+}
+
+@media (max-width:600px) {
+  .main-content {
+    top: 30vh;
+  }
+}
+
+/* ------------home-main end--------------------- */
+
+/* ----------------About section start-------------------- */
+
+
+.text-align-center h1 {
+  text-align: center;
+}
+
+/* .................about section end............... */
+/* .................service section start............... */
+.service{
+  margin-top: 20vh;
+}
+/* .service-slide .slick-slider {
+  position: relative;
+  display: block;
+} */
+.outer-slider-img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  
+}
+.outer-slider {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 8px -1px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.service_item {
+  margin-left: 5vw;
+  border: 1px solid rgb(91, 211, 171);
+  box-shadow: 0 0 8px -1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.service_content {
+  padding: 10px;
+  margin: 5vw;
+}
+
+/* ----------------- service section end---------------- */
+
+/* -----------------purchase section satrt-------------- */
+.purchase-now{
+  margin-top: 20vh;
+}
+
+.subscribe .accordion ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe .accordion .accordion-item .dot {
+  background: rgb(230, 93, 93);
+  border-radius: 50%;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 2em;
+  margin-right: 5px;
+  text-align: center;
+  width: 2em;
+}
+
+.accordion .accordion-item .accordion-header h2 {
+  color: rgb(230, 93, 93);
+}
+
+.accordion .accordion-item .accordion-header .headingbar {
+  color: rgb(236, 32, 66);
+  font-family: 'Noto Serif',
+    serif;
+  font-size: 2vw;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body .free-shipping {
+  text-align: center;
+  color: rgb(206, 42, 42);
+  padding: 10px;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body .fa-solid {
+  width: 3vw;
+  height: 3vw;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body .free-shipping span {
+  padding-left: 8px;
+  font-family: 'Noto Serif',
+    serif;
+  font-size: 1.5vw;
+}
+
+.age-logo {
+  cursor: pointer;
+  top: -5px;
+}
+
+.accordion,
+.accordion ol,
+.accordion ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.accordion-body li {
+  float: none;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.mobile-button {
+  display: block;
+  border-radius: 12px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, .5);
+  padding: 10px;
+  position: relative;
+  overflow: visible;
+  margin: 8px auto 8px;
+  text-align: left;
+  background: #fff;
+  width: 100%;
+  float: left;
+}
+
+@media (min-width:768px) {
+  .mobile-button {
+    text-align: center;
+    padding: 10px;
+    transition: top .4s;
+    top: 0
+  }
+}
+
+
+.mobile-button:active,
+.mobile-button:focus,
+.mobile-button:hover {
+  top: -5px;
+  cursor: pointer;
+}
+
+.mobile-button p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+}
+
+.alexa {
+
+  background-size: contain;
+
+  height: 50px;
+}
+
+.accordion ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: inline-flex;
+}
+
+.artist {
+  display: inline;
+  font-family: 'Noto Serif',
+    serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  padding-top: 15px;
+
+}
+
+.ages {
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Noto Serif',
+    serif;
+  font-size: 2vw;
+
+}
+
+.accordion li:hover {
+  color: rgb(233, 143, 27);
+}
+
+@media (max-width:800px) {
+  .accordion ol {
+    display: block;
+  }
+}
+
+@media (max-width:768px) {
+  .mobile-button {
+    width: auto;
+    text-align: center;
+
+  }
+}
+
+@media (max-width:800px) {
+  .alexa {
+    width: auto;
+    float: left;
+  }
+}
+
+.purchase-footer {
+  background-color: rgb(226, 217, 217);
+  /* height: 40vh; */
+  margin-top: 18px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px rgb(90, 23, 23);
+}
+
+.footer-top {
+  margin-bottom: 80px;
+}
+
+.purchase-footer .total-price {
+  color: rgb(123, 125, 131);
+  font-size: 2vw;
+  float: left;
+  font-family: 'Noto Serif',
+    serif;
+  text-align: left;
+}
+
+.purchase-footer .btn-checkout {
+  border-radius: 30px;
+  float: right;
+  background-color: rgb(197, 203, 206);
+  font-size: 2vw;
+  font-family: 'Noto Serif',
+    serif;
+  border: transparent;
+}
+
+.purchase-footer .btn-checkout:hover {
+  background-color: rgb(133, 136, 133);
+}
+
+.cancel-policy {
+  background-color: #efefef;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.footer-img {
+  width: 40px;
+  height: 30px;
+  background: transparent;
+}
+
+.purchase-footer .clear {
+  clear: both;
+}
+
+.purchase-footer .cancel-policy p {
+  display: inline-flex;
+  text-align: left;
+}
+
+/* ---------------------------purchase section end----------------------------- */
+
+/* ---------------------------Footer section start--------------------------- */
+.footer-bottom {
+  margin-top: 80px;
+  border: 1px solid brown;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  background-color: rgb(26, 28, 32);
+}
+
+.footer .footer-bottom .btn {
+  /* border-radius: 50%; */
+  /* background-color: rgb(227, 255, 127); */
+  border: none;
+}
+
+.fa-stack .fbicon {
+  color: #3b5998;
+}
+
+.fa-stack .twittericon {
+  color: #55acee;
+}
+
+.fa-stack .googleicon {
+  color: #dd4b39;
+}
+
+.fa-stack .instagramicon {
+  color: #ac2bac;
+}
+
+.fa-stack .linkedinicon {
+  color: #0082ca;
+}
+
+.fa-stack .githubicon {
+  color: #333333;
+}
+
+/* ---------------------------Footer section end--------------------------- */
+
+
+ 
